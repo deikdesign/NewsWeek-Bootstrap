@@ -1,6 +1,6 @@
 .upper {
-background:rgb(255,5,0);
-height: 5rem;
+background: #f72210;
+height: 7rem;
 }
 
 .login {
@@ -12,8 +12,21 @@ height: 5rem;
     height: 35px;
 }
 
-.title img {
-    height:100%;
-    width:auto;
-    align-items:center;
+.middle a {
+    border-right: 1px solid lightgray;
 }
+
+.last {
+    border: none !important;
+}
+
+.middle input {
+  border: none !important;
+  text-align: center;
+  width: 4rem;
+}
+
+.nav-link {
+  text-align: center;
+}
+
