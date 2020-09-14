@@ -1,0 +1,13 @@
+.upper {
+background: #f72210;
+height: 5rem;
+}
+
+.login {
+    color:white;
+}
+.bg-warning {
+    border-radius: 40%;
+    width: 150px;
+    height: 35px;
+}
