@@ -1,6 +1,6 @@
 .upper {
 background: #f72210;
-height: 5rem;
+height: 7rem;
 }
 
 .login {
@@ -11,3 +11,22 @@ height: 5rem;
     width: 150px;
     height: 35px;
 }
+
+.middle a {
+    border-right: 1px solid lightgray;
+}
+
+.last {
+    border: none !important;
+}
+
+.middle input {
+  border: none !important;
+  text-align: center;
+  width: 4rem;
+}
+
+.nav-link {
+  text-align: center;
+}
+
