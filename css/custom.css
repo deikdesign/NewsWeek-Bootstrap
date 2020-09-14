@@ -1,3 +1,9 @@
+
+img {
+    height:9rem;
+    width:auto;
+}
+
 .upper {
 background: #f72210;
 height: 7rem;
@@ -10,6 +16,12 @@ height: 7rem;
     border-radius: 40%;
     width: 150px;
     height: 35px;
+}
+
+.title img {
+    height:5rem;
+    width:auto;
+
 }
 
 .middle a {
@@ -29,4 +41,23 @@ height: 7rem;
 .nav-link {
   text-align: center;
 }
+
+.lower a:hover {
+    background-color:red;
+}
+
+.col-img {
+    position:relative;
+}
+.col-img span {
+    position:absolute;
+    background-color:white;
+    color:red;
+    height: 20px;
+    width:auto;
+    bottom:0px;
+    padding: 0px 5px 0px 5px;
+    font-weight: 500;
+}
+
 
