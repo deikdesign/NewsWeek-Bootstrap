@@ -1,5 +1,5 @@
 .upper {
-background: #f72210;
+background:rgb(255,5,0);
 height: 5rem;
 }
 
@@ -10,4 +10,10 @@ height: 5rem;
     border-radius: 40%;
     width: 150px;
     height: 35px;
+}
+
+.title img {
+    height:100%;
+    width:auto;
+    align-items:center;
 }
