@@ -88,4 +88,11 @@ height: 7rem;
     font-weight: 500;
 }
 
+/**Footer**/
+.f-end {
+    align-items: flex-end;
+}
 
+.mr-5 {
+    margin-right: 0;
+}
