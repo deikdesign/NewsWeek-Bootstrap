@@ -6,9 +6,17 @@ body {
   padding: 0;
 }
 
+.color {
+  color: black !important;
+  font-weight: 500;
+}
+
 .sml {
   height: 4rem;
   background: #f72210;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 
 .head_img img {
@@ -16,15 +24,12 @@ body {
 }
 
 .btn-sml {
-  height: 10px !important;
-  width: 120px !important;
+  height: 2rem !important;
+  width: 6rem !important;
   padding-bottom: 2rem;
+  border-radius: 40px;
   border: none
 }
-/* img {
-    height:15rem;
-    width:auto;
-} */
 
 .upper {
 background: #f72210;
@@ -74,18 +79,33 @@ height: 7rem;
     background-color:red;
 }
 
-.col-img {
-    position:relative;
+.pos {
+  background-color: white;
+  height: 3rem;
+  width: auto;
+  top: 46%;
+  left: 30px;
 }
-.col-img span {
-    position:absolute;
-    background-color:white;
-    color:red;
-    height: 20px;
-    width:auto;
-    bottom:0px;
-    padding: 0px 5px 0px 5px;
-    font-weight: 500;
+
+.top_img img {
+  width: 23rem;
+  padding-left: 1rem;
 }
+
+.debate  img{
+  height: 7rem;
+}
+
+.debate_head {
+  border-bottom: 2px groove lightgray;
+}
+
+.vs {
+  width: 50px;
+  height: 50px;
+  top: 50.5%;
+  left: 45%;
+}
+
 
 

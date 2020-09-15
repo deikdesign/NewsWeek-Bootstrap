@@ -25,12 +25,13 @@
     </script>
     <!--  Start from here down-->
     <!-- header for small screen-->
-    <div class="container_1">
+    <div class="container">
       <header class="sml d-flex d-lg-none justify-content-between">
         <div class="head_img align-items-center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/800px-Newsweek_Logo.svg.png" alt=""></div>
         <div class="right d-flex justify-content-between align-items-center">
-          <div><i class="fas fa-male text-white pr-2"></i> </div>
-          <div><button class="btn-sml rounded-pill text-dark bg-warning">
+          <div class="d-md-none"> <i class="far fa-user text-white pr-2"></i></div>
+          <div class="d-none d-md-block d-lg-none pr-2 "><a class="text-white text-decoration-none" href="#"> LOGIN</a></div>
+          <div class="pt-3 pb-3"><button class="btn-sml text-dark bg-warning">
                     <h6>Subscribe <i class="fas fa-chevron-right"></i></h6>
                 </button></div>
           <div><i class="fas fa-bars text-light pr-4 pl-2 sm-d-block"></i></div>
@@ -95,72 +96,88 @@
     </nav>
     <hr>
     </div>
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-sm-4 d-flex flex-column">1 columns
-                <div class="first-col">
-                    <div class="heading">Featured Stories</div>
-                    <div class="img-col">
-                        <img src="https://d.newsweek.com/en/full/1636081/getty-images-beachie-creek-oregon.webp?w=397&h=265&q=90&f=cc11258fb43f874f6b7ae15f2340c696"
-                            alt="image">
-                    </div>
-                    <div class="img-text">U.S</div>
-                    <div class="description">
-                        <p><a href="#">As Wildfires Rage, Forecast High Winds Will Be a Blessing or a Curse</a></p>
-                    </div>
-                </div>
-                 <div class="first-col">
-                    <div class="heading">Featured Stories</div>
-                    <div class="img-col">
-                        <img src="https://d.newsweek.com/en/full/1636081/getty-images-beachie-creek-oregon.webp?w=397&h=265&q=90&f=cc11258fb43f874f6b7ae15f2340c696"
-                            alt="image">
-                    </div>
-                    <div class="img-text">U.S</div>
-                    <div class="description">
-                        <p><a href="#">As Wildfires Rage, Forecast High Winds Will Be a Blessing or a Curse</a></p>
-                    </div>
-                </div>
-                 <div class="first-col">
-                    <div class="heading">Featured Stories</div>
-                    <div class="img-col">
-                        <img src="https://d.newsweek.com/en/full/1636081/getty-images-beachie-creek-oregon.webp?w=397&h=265&q=90&f=cc11258fb43f874f6b7ae15f2340c696"
-                            alt="image">
-                    </div>
-                    <div class="img-text">U.S</div>
-                    <div class="description">
-                        <p><a href="#">As Wildfires Rage, Forecast High Winds Will Be a Blessing or a Curse</a></p>
-                    </div>
-                </div>
-                    <!-- <div>
-                    <h4 class="text-dark">Featured Stories</h4>
-                    <div class="col-img">
-                        
-                        <span class="cap">U.S.</span>
-                    </div>
-                    </div>
-                    <div>
-                    <h6><a href="#">e</a></h6>
-                    <small>The stronger the gust, the more deadly the fire.</small>
-                    <div class="col-img">
-                        <img src="https://d.newsweek.com/en/full/1636081/getty-images-beachie-creek-oregon.webp?w=397&h=265&q=90&f=cc11258fb43f874f6b7ae15f2340c696"
-                            alt="">
-                        <span class="cap">U.S.</span>
-                    </div>
-                    <h6><a href="#">As Wildfires Rage, Forecast High Winds Will Be a Blessing or a Curse</a></h6>
-                    <small>The stronger the gust, the more deadly the fire.</small>
-                    </div> -->
-            </div>
-              <div class="col-sm-4">2 columns</div>
-        <div class="col-sm-4">3 columns</div>
+    <secction class="container d-md-none">
+      <div class="title"><h4 class="p-3 pt-5 text-gray">TOP STORY</h4></div>
+      <div class="row position-relative">
+        <div class="col-sm-12">
+          <div class="top_img"><img src="https://d.newsweek.com/en/full/1636154/hurricane-sally.png?w=591&h=364&f=75ac009bf0ffccefffb1613c9ae140e4" alt="Top Image"></div>
+          <div class="position-absolute pos"><h4 class="text-danger p-2">U.S.</h4></div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none" href="#">Hurricane Sally Now a Category 2 Storm Taking Aim at Gulf Coast States
+          </a></p>
+          <p class="pl-3 pr-3">The storm is expected to bring "life-threatening" floods along the coastlines of Louisiana, Mississippi and Alabama. Sally is expected to make landfall overnight into Tuesday morning.</p>
         </div>
-      
-    </div>
-    </div>
-
-
-
-
-
+      </div>
+       <div class="title"><h4 class="p-3 text-gray">FEATURED STORIES</h4></div>
+      <div class="row position-relative">
+        <div class="col-sm-12">
+          <div class="top_img"><img src="https://d.newsweek.com/en/full/1635953/covid-19-coronavirus-vaccine-doctor-trials.jpg?w=397&h=265&q=90&f=9c3e9021b182483d4e186f71d877073e" alt="Top Image"></div>
+          <div class="position-absolute pos"><h4 class="text-danger p-2">MY TURN</h4></div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none" href="#">'I'm Working on a COVID-19 Vaccine'
+          </a></p>
+          <p class="pl-3 pr-3">Since August 26 I have been running trials of a vaccine for COVID-19. Towards the end of the year I think it will be possible to have early indicators as to how effective this vaccine is and whether it can be submitted for FDA approval.</p>
+        </div>
+      </div>
+       <div class="row position-relative">
+        <div class="col-sm-12">
+          <div class="top_img"><img src="https://d.newsweek.com/en/full/1635927/lasd.png?w=397&h=265&q=90&f=55667ee9d31d47b9c4fd082e10d9a05f" alt="Top Image"></div>
+          <div class="position-absolute pos"><h4 class="text-danger p-2">NEWS</h4></div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none" href="#">Police Vow To Hunt Down L.A. Shooter Who Ambushed Two Patrol Officers
+          </a></p>
+          <p class="pl-3 pr-3">Ronald Hernandez, president of the Association for Los Angeles Deputy Sheriffs, said the gunman should hand himself in as the reward for his capture is raised to $200,000.</p>
+        </div>
+      </div>
+       <div class="row position-relative">
+        <div class="col-sm-12">
+          <div class="top_img"><img src="https://d.newsweek.com/en/full/1636213/trump.jpg?w=397&h=265&q=90&f=587ceb50971092b89cbba2dc5e28ad07" alt="Top Image"></div>
+          <div class="position-absolute pos"><h4 class="text-danger p-2">POLITICS</h4></div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none" href="#">As Biden, Trump Clash Over Wildfires, Climate Is Low Priority for Voters
+          </a></p>
+          <p class="pl-3 pr-3">The issue of climate change lags behind other points in terms of what voters are focused on ahead of November.</p>
+        </div>
+      </div>
+       <div class="row position-relative">
+        <div class="col-sm-12">
+          <div class="top_img"><img src="https://d.newsweek.com/en/full/1636022/covid-19-coronavirus-getty-trump-2020.jpg?w=397&h=265&q=90&f=0010225e8aad5e62d9729a08770ea135" alt="Top Image"></div>
+          <div class="position-absolute pos"><h4 class="text-danger p-2">HEALTH</h4></div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none" href="#">No Sign of Second Wave Before Election, but COVID-19 Cases Could Get Worse
+          </a></p>
+          <p class="pl-3 pr-3">Experts told Newsweek cases will likely soon climb, and that the country is in for a rocky few months .</p>
+        </div>
+      </div>
+       <div class="row position-relative">
+        <div class="col-sm-12">
+          <div class="top_img"><img src="https://d.newsweek.com/en/full/1636210/iranian-flag-bushehr-nuclear-plant.jpg?w=397&h=265&q=90&f=9b8883db77232a92749a54f6d7209f63" alt="Top Image"></div>
+          <div class="position-absolute pos"><h4 class="text-danger p-2">WORLD</h4></div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none" href="#">Iran Can Now Enrich Stable Isotopes, Country's Atomic Agency Claims
+          </a></p>
+          <p class="pl-3 pr-3">The Iranian atomic energy agency claimed on Monday that country now has the ability to enrich isotopes other than uranium.</p>
+        </div>
+      </div>
+    </secction>
+    <section class="container d-md-none p-3 position-relative">
+      <div class="debate_head "><h4 class="text-secondary"> THE DEBATE</h4></div>
+      <div class="row">
+        <div class="col-12">
+      <div class="person_1 d-flex justify-content-between pt-4">
+        <div class="debate"><img src="https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea" alt=""></div>
+        <div  class=" pl-4">
+          <p class="align-items-center "><href="#">The Best (Cyber) Defense Is a Good (Cyber) Offense</a></p>
+          <p><span>BY</span> JAMIL N. JAFFER</p>
+        </div>
+      </div>
+      <div class="debate_head pt-5"></div>
+      <div class="debate_head"></div>
+      <div class="vs rounded-circle bg-dark position-absolute"><h5 class="text-white p-3">VS</h5></div>
+      <div class="person_1 d-flex justify-content-between pt-4">
+        <div  class=" pr-4">
+          <p class="align-items-center "><href="#">The Best (Cyber) Defense Is a Good (Cyber) Offense</a></p>
+          <p><span>BY</span> JAMIL N. JAFFER</p>
+        </div>
+        <div class="debate"><img src="https://d.newsweek.com/en/full/1568478/bonnie-kristian.png?w=150&h=150&f=e7d92ab04281e52ef365c0014402de48" alt=""></div>
+      </div>
+      </div>
+      </div>
+    </section>
 </body>
 
 </html>
