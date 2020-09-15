@@ -1,8 +1,30 @@
-
-img {
-    height:9rem;
-    width:auto;
+body {
+  font-family: 'Roboto Condensed', sans-serif;
 }
+
+.container {
+  padding: 0;
+}
+
+.sml {
+  height: 4rem;
+  background: #f72210;
+}
+
+.head_img img {
+  height: 3rem;
+}
+
+.btn-sml {
+  height: 10px !important;
+  width: 120px !important;
+  padding-bottom: 2rem;
+  border: none
+}
+/* img {
+    height:15rem;
+    width:auto;
+} */
 
 .upper {
 background: #f72210;
@@ -13,15 +35,21 @@ height: 7rem;
     color:white;
 }
 .bg-warning {
-    border-radius: 40%;
-    width: 150px;
-    height: 35px;
+    padding-top: .5rem;
+    border: none;
+    border-radius: 20px;
+    width: 180px;
+    height: 40px;
 }
 
 .title img {
     height:5rem;
     width:auto;
 
+}
+
+.navbar {
+    border-bottom: 1px solid lightgray;
 }
 
 .middle a {
