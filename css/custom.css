@@ -43,7 +43,7 @@ height: 7rem;
 }
 
 .lower a:hover {
-    background-color:red;
+   color:red !important;
 }
 
 .col-img {
