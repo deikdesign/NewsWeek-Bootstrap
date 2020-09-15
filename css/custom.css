@@ -93,6 +93,6 @@ height: 7rem;
     align-items: flex-end;
 }
 
-.mr-5 {
-    margin-right: 0;
+.mr-5px {
+    margin-right: 5px;
 }
