@@ -2,8 +2,25 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.f-nowrap {
+  flex-wrap: nowrap !important
+}
+.ds-flex {
+  display: flex !important;
+}
+
+.mrg-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .container {
   padding: 0;
+}
+
+.image-shrink {
+  width:100% !important;
+  flex-shrink: 0!important;
 }
 
 .color {
@@ -106,7 +123,94 @@ height: 7rem;
   top: 50.5%;
   left: 45%;
 }
+/**Sports**/
 
+
+.small-img {
+  width: 100px !important;
+  float: left;
+  margin:10px;
+}
+
+
+
+/** Subscribe **/
+.container {
+  background-color: rgb(244,245,246);
+  padding: 10px;
+}
+.wrap {
+ display: flex;
+ flex-wrap: wrap;
+ margin: 14px;
+}
+.s-images {
+  display: flex;
+  position: relative;
+  max-width: 75%;
+}
+.thumbnails {
+  width: auto;
+  max-height: 208px;
+}
+.img1 {
+  position:absolute;
+  height: auto;
+  max-height: 175px;
+  width: auto;
+}
+.img2 {
+  position: relative;
+  max-height: 175px;
+  width: auto;
+  left: 80px;
+  top: 10px;
+
+}
+{
+  margin-left: 90px !important;
+}
+
+/** Newsletter **/
+.news-letter {
+  position: relative;
+  padding: 15px;
+}
+
+.news-letter h6 {
+  color:  rgb(247,34,16)!important;
+}
+.newsletter {
+  padding: 20px;
+  border: solid 1px lightgray;
+}
+
+.cont-letter input[type=text], [type=submit] {
+    width: 100%;
+    padding: 6px;
+    display:inline-block;
+    box-sizing: border-box;
+}
+.submit [type=submit] {
+  background-color: rgb(247,34,16)!important;
+  border:none;
+  margin-top: 7px;
+}
+
+.letter-img {
+  float: left;
+}
+.text-cont {
+  float: right;
+  float: right;
+  margin-left: 90px;
+  margin-top:20px;
+}
+
+.text {
+  float: right;
+  margin-left: 90px;
+}
 
 /**Footer**/
 .f-end {
