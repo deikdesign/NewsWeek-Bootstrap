@@ -25,22 +25,20 @@
   </script>
   <!--  Start from here down-->
   <!-- header for small screen-->
-  <div class="container">
-    <header class="sml d-flex d-lg-none justify-content-between">
-      <div class="head_img align-items-center"><img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/800px-Newsweek_Logo.svg.png"
-          alt=""></div>
-      <div class="right d-flex justify-content-between align-items-center">
-        <div class="d-md-none"> <i class="far fa-user text-white pr-2"></i></div>
-        <div class="d-none d-md-block d-lg-none pr-2 "><a class="text-white text-decoration-none" href="#"> LOGIN</a>
+    <div class="container-fluid">
+      <header class="sml d-flex d-lg-none justify-content-between">
+        <div class="head_img align-items-center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/800px-Newsweek_Logo.svg.png" alt=""></div>
+        <div class="right d-flex justify-content-between align-items-center">
+          <div class="d-md-none"> <i class="far fa-user text-white pr-2"></i></div>
+          <div class="d-none d-md-block d-lg-none pr-2 "><a class="text-white text-decoration-none" href="#"> LOGIN</a></div>
+          <div class="pt-3 pb-3"><button class="btn-sml text-dark bg-warning">
+                    <h6>Subscribe <i class="fas fa-chevron-right"></i></h6>
+                </button></div>
+          <div><i class="fas fa-bars text-light pr-4 pl-2 sm-d-block"></i></div>
         </div>
-        <div class="pt-3 pb-3"><button class="btn-sml text-dark bg-warning">
-            <h6>Subscribe <i class="fas fa-chevron-right"></i></h6>
-          </button></div>
-        <div><i class="fas fa-bars text-light pr-4 pl-2 sm-d-block"></i></div>
-      </div>
-    </header>
-  </div>
+      
+      </header>
+    </div>
   <div class="d-none d-lg-block nav-container">
     <nav class="upper d-flex justify-content-between">
       <div class="left d-flex flex-column align-self-center pl-5">
@@ -110,142 +108,421 @@
     </nav>
     <hr>
   </div>
-  <secction class="container d-md-none">
-    <div class="title">
-      <h4 class="p-3 pt-5 text-gray">TOP STORY</h4>
-    </div>
-    <div class="row position-relative">
-      <div class="col-sm-12">
-        <div class="top_img"><img
-            src="https://d.newsweek.com/en/full/1636154/hurricane-sally.png?w=591&h=364&f=75ac009bf0ffccefffb1613c9ae140e4"
-            alt="Top Image"></div>
-        <div class="position-absolute pos">
-          <h4 class="text-danger p-2">U.S.</h4>
-        </div>
-        <p class="pl-3 pr-3 pt-3"><a class="color text-decoration-none" href="#">Hurricane Sally Now a Category 2 Storm
-            Taking Aim at Gulf Coast States
+    <section class="container">
+      <div class="row position-relative">
+      <!--Change-->
+        <div class="col-sm-12 col-md-6 order-md-2 d-flex flex-column">
+          <div class="title"><h4 class="p-3 pt-5 text-gray font">TOP STORY</h4></div>
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="text-danger font-weight-bold">U.S.</h5></div>
+            <img src="https://d.newsweek.com/en/full/1636154/hurricane-sally.png?w=591&h=364&f=75ac009bf0ffccefffb1613c9ae140e4" alt="Top Image">
+            </div>
+         
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">Hurricane Sally Now a Category 2 Storm Taking Aim at Gulf Coast States
           </a></p>
-        <p class="pl-3 pr-3">The storm is expected to bring "life-threatening" floods along the coastlines of Louisiana,
-          Mississippi and Alabama. Sally is expected to make landfall overnight into Tuesday morning.</p>
-      </div>
-    </div>
-    <div class="title">
-      <h4 class="p-3 text-gray">FEATURED STORIES</h4>
-    </div>
-    <div class="row position-relative">
-      <div class="col-sm-12">
-        <div class="top_img"><img
-            src="https://d.newsweek.com/en/full/1635953/covid-19-coronavirus-vaccine-doctor-trials.jpg?w=397&h=265&q=90&f=9c3e9021b182483d4e186f71d877073e"
-            alt="Top Image"></div>
-        <div class="position-absolute pos">
-          <h4 class="text-danger p-2">MY TURN</h4>
+          <p class="pl-3 pr-3 font-weight-small">The storm is expected to bring "life-threatening" floods along the coastlines of Louisiana, Mississippi and Alabama. Sally is expected to make landfall overnight into Tuesday morning.</p>
+          <!-- medium screen -->
+                <div class="title d-none d-md-block"><h4 class="pt-3 pl-3 text-gray font">MY TURN</h4></div>
+        <div class="turn_md row">  
+        <div class="d-none d-md-block col-4">
+          <div class="pl-3 pr-2 top_img_m"><img class="pl-0" src="https://d.newsweek.com/en/full/1637610/sapiosexuality-relationships-dating.jpg?w=397&h=397&f=a7ea46aff9ee03225f6f068558042209" alt="Image"></div>
+          <div><a href="#" class="text-decoration-none font-weight-bold dif pl-3">"This Is What It's Like to Be Sapiosexual"</a></div>
         </div>
-        <p class="pl-3 pr-3 pt-3"><a class="color text-decoration-none" href="#">'I'm Working on a COVID-19 Vaccine'
+        <div class="d-none d-md-block col-4">
+          <div class="pl-3 pr-2 top_img top_img_m"><img class="pl-0" src="https://d.newsweek.com/en/full/1635772/marriage-divorce-relationships-therapy.jpg?w=397&h=397&f=5555a2d37a9f1d1749ddbaa29e2bee8d" alt=""></div>
+          <div class="pt-3"><a href="#" class="text-decoration-none font-weight-bold dif pl-3 pt-3">"This Is What It's Like to Be Sapiosexual"</a></div>
+        </div>
+        <div class="d-none d-md-block col-4">
+          <div class="pl-3 pr-2 top_img_m"><img class="pl-0" src="https://d.newsweek.com/en/full/1635953/covid-19-coronavirus-vaccine-doctor-trials.jpg?w=397&h=397&f=fbfae1b3743093ddcbe1cbfaba754dfa" alt=""></div>
+          <div class="pt-3"><a href="#" class="text-decoration-none font-weight-bold dif pl-3">"This Is What It's Like to Be Sapiosexual"</a></div>
+        </div>
+      </div>
+       </div>
+
+        </div>
+       <div class="title border-top"><h4 class="p-3 text-gray font">FEATURED STORIES</h4></div>
+      <div class="row position-relative">
+        <div class="col-sm-12">
+           <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="text-danger font-weight-bold">MY TURN</h5></div>
+            <img src="https://d.newsweek.com/en/full/1635953/covid-19-coronavirus-vaccine-doctor-trials.jpg?w=397&h=265&q=90&f=9c3e9021b182483d4e186f71d877073e" alt="Top Image">
+            </div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">'I'm Working on a COVID-19 Vaccine'
           </a></p>
-        <p class="pl-3 pr-3">Since August 26 I have been running trials of a vaccine for COVID-19. Towards the end of
-          the year I think it will be possible to have early indicators as to how effective this vaccine is and whether
-          it can be submitted for FDA approval.</p>
-      </div>
-    </div>
-    <div class="row position-relative">
-      <div class="col-sm-12">
-        <div class="top_img"><img
-            src="https://d.newsweek.com/en/full/1635927/lasd.png?w=397&h=265&q=90&f=55667ee9d31d47b9c4fd082e10d9a05f"
-            alt="Top Image"></div>
-        <div class="position-absolute pos">
-          <h4 class="text-danger p-2">NEWS</h4>
+          <p class="pl-3 pr-3 font-weight-small">Since August 26 I have been running trials of a vaccine for COVID-19. Towards the end of the year I think it will be possible to have early indicators as to how effective this vaccine is and whether it can be submitted for FDA approval.</p>
         </div>
-        <p class="pl-3 pr-3 pt-3"><a class="color text-decoration-none" href="#">Police Vow To Hunt Down L.A. Shooter
-            Who Ambushed Two Patrol Officers
+        <div class="col-sm-12">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="text-danger font-weight-bold">NEWS</h5></div>
+            <img src="https://d.newsweek.com/en/full/1635927/lasd.png?w=397&h=265&q=90&f=55667ee9d31d47b9c4fd082e10d9a05f" alt="Top Image">
+            </div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">Police Vow To Hunt Down L.A. Shooter Who Ambushed Two Patrol Officers
           </a></p>
-        <p class="pl-3 pr-3">Ronald Hernandez, president of the Association for Los Angeles Deputy Sheriffs, said the
-          gunman should hand himself in as the reward for his capture is raised to $200,000.</p>
-      </div>
-    </div>
-    <div class="row position-relative">
-      <div class="col-sm-12">
-        <div class="top_img"><img
-            src="https://d.newsweek.com/en/full/1636213/trump.jpg?w=397&h=265&q=90&f=587ceb50971092b89cbba2dc5e28ad07"
-            alt="Top Image"></div>
-        <div class="position-absolute pos">
-          <h4 class="text-danger p-2">POLITICS</h4>
+          <p class="pl-3 pr-3 font-weight-small">Ronald Hernandez, president of the Association for Los Angeles Deputy Sheriffs, said the gunman should hand himself in as the reward for his capture is raised to $200,000.</p>
         </div>
-        <p class="pl-3 pr-3 pt-3"><a class="color text-decoration-none" href="#">As Biden, Trump Clash Over Wildfires,
-            Climate Is Low Priority for Voters
+        <div class="col-sm-12">
+
+         <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="text-danger font-weight-bold">POLITICS</h5></div>
+            <img src="https://d.newsweek.com/en/full/1636213/trump.jpg?w=397&h=265&q=90&f=587ceb50971092b89cbba2dc5e28ad07" alt="Top Image">
+            </div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">As Biden, Trump Clash Over Wildfires, Climate Is Low Priority for Voters
           </a></p>
-        <p class="pl-3 pr-3">The issue of climate change lags behind other points in terms of what voters are focused on
-          ahead of November.</p>
-      </div>
-    </div>
-    <div class="row position-relative">
-      <div class="col-sm-12">
-        <div class="top_img"><img
-            src="https://d.newsweek.com/en/full/1636022/covid-19-coronavirus-getty-trump-2020.jpg?w=397&h=265&q=90&f=0010225e8aad5e62d9729a08770ea135"
-            alt="Top Image"></div>
-        <div class="position-absolute pos">
-          <h4 class="text-danger p-2">HEALTH</h4>
+          <p class="pl-3 pr-3 font-weight-small">The issue of climate change lags behind other points in terms of what voters are focused on ahead of November.</p>
         </div>
-        <p class="pl-3 pr-3 pt-3"><a class="color text-decoration-none" href="#">No Sign of Second Wave Before Election,
-            but COVID-19 Cases Could Get Worse
+        <div class="col-sm-12">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="text-danger font-weight-bold">HEALTH</h5></div>
+            <img src="https://d.newsweek.com/en/full/1636022/covid-19-coronavirus-getty-trump-2020.jpg?w=397&h=265&q=90&f=0010225e8aad5e62d9729a08770ea135" alt="Top Image">
+            </div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">No Sign of Second Wave Before Election, but COVID-19 Cases Could Get Worse
           </a></p>
-        <p class="pl-3 pr-3">Experts told Newsweek cases will likely soon climb, and that the country is in for a rocky
-          few months .</p>
-      </div>
-    </div>
-    <div class="row position-relative">
-      <div class="col-sm-12">
-        <div class="top_img"><img
-            src="https://d.newsweek.com/en/full/1636210/iranian-flag-bushehr-nuclear-plant.jpg?w=397&h=265&q=90&f=9b8883db77232a92749a54f6d7209f63"
-            alt="Top Image"></div>
-        <div class="position-absolute pos">
-          <h4 class="text-danger p-2">WORLD</h4>
+          <p class="pl-3 pr-3 font-weight-small">Experts told Newsweek cases will likely soon climb, and that the country is in for a rocky few months .</p>
         </div>
-        <p class="pl-3 pr-3 pt-3"><a class="color text-decoration-none" href="#">Iran Can Now Enrich Stable Isotopes,
-            Country's Atomic Agency Claims
+        <div class="col-sm-12">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="text-danger font-weight-bold">WORLD</h5></div>
+            <img src="https://d.newsweek.com/en/full/1636210/iranian-flag-bushehr-nuclear-plant.jpg?w=397&h=265&q=90&f=9b8883db77232a92749a54f6d7209f63" alt="Top Image">
+            </div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">Iran Can Now Enrich Stable Isotopes, Country's Atomic Agency Claims
           </a></p>
-        <p class="pl-3 pr-3">The Iranian atomic energy agency claimed on Monday that country now has the ability to
-          enrich isotopes other than uranium.</p>
+          <p class="pl-3 pr-3 font-weight-small">The Iranian atomic energy agency claimed on Monday that country now has the ability to enrich isotopes other than uranium.</p>
+        </div>
       </div>
-    </div>
-  </secction>
-  <section class="container d-md-none p-3 position-relative">
-    <div class="debate_head ">
-      <h4 class="text-secondary"> THE DEBATE</h4>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="person_1 d-flex justify-content-between pt-4">
-          <div class="debate"><img
-              src="https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
-              alt=""></div>
-          <div class=" pl-4">
-            <p class="align-items-center ">
-              <href="#">The Best (Cyber) Defense Is a Good (Cyber) Offense</a>
-            </p>
-            <p><span>BY</span> JAMIL N. JAFFER</p>
-          </div>
-        </div>
-        <div class="debate_head pt-5"></div>
-        <div class="debate_head"></div>
-        <div class="vs rounded-circle bg-dark position-absolute">
-          <h5 class="text-white p-3">VS</h5>
-        </div>
-        <div class="person_1 d-flex justify-content-between pt-4">
-          <div class=" pr-4">
-            <p class="align-items-center ">
-              <href="#">The Best (Cyber) Defense Is a Good (Cyber) Offense</a>
-            </p>
-            <p><span>BY</span> JAMIL N. JAFFER</p>
-          </div>
-          <div class="debate"><img
-              src="https://d.newsweek.com/en/full/1568478/bonnie-kristian.png?w=150&h=150&f=e7d92ab04281e52ef365c0014402de48"
-              alt=""></div>
+    </section>
+    <section class="container d-md-none p-3 position-relative">
+      <div class="debate_head "><h4 class="text-secondary font"> THE DEBATE</h4></div>
+      <div class="row">
+        <div class="col-12">
+      <div class="person_1 d-flex justify-content-between pt-4">
+        <div class="debate"><img src="https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea" alt=""></div>
+        <div  class=" pl-4">
+          <div class="align-items-center text-dark"><a href="#" class="font-weight-bold text-decoration-non text-dark">The Best (Cyber) Defense Is a Good (Cyber) Offense</a></div>
+          <div class="pt-1 font-weight-bold"><span class="dif">BY</span> JAMIL N. JAFFER</div>
         </div>
       </div>
     </div>
+      </div>
+      <div class="debate_head pt-4"></div>
+      <div class="debate_head"></div>
+      <div class="vs rounded-circle bg-dark position-absolute"><h5 class="text-white p-3">VS</h5></div>
+      <div class="person_1 d-flex justify-content-between pt-4 pb-3 debate_head">
+        <div  class=" pr-4">
+          <div class="align-items-center "><a href="#" class="font-weight-bold text-decoration-non text-dark">The U.S. Needs a Cyber Strategy Designed for Defense</a></div>
+          <div class="pt-1 font-weight-bold"><span class="dif">BY</span> BONNIE KRISTIAN</div>
+        </div>
+         <div class="debate"><img src="https://d.newsweek.com/en/full/1568478/bonnie-kristian.png?w=150&h=150&f=e7d92ab04281e52ef365c0014402de48" alt=""></div>
+      </div>
+   
   </section>
-  </div>
-  <section class="sports category row border-bottom ">
+ 
+    <section class="container d-md-none border-top">
+         <h4 class="mt-4 p-3 font">OPINION</h4>
+      <div class="row">
+        <div class="d-flex pl-4 pb-3 border-bottom">
+          <div class="pl-1"><img src="https://d.newsweek.com/en/full/110048/michael-e-mann.png?w=63&h=63&f=493dae232c1e338506a129ac70ec49d9" alt=""></div>
+         <div  class=" pl-2">
+          <div class="align-items-center pr-1"><a class="text-decoration-none text-dark font-weight-bold" href="#">The West Is Burning. Trump Couldn't Care Less</a></div>
+          <div class="pt-1 font-weight-bold"><span class="dif">BY</span> BY ROBERT REICH</div>
+        </div>
+        </div>
+        <div class="d-flex pl-4 pb-3 pt-2 border-bottom">
+          <div class="pl-1"><img src="https://d.newsweek.com/en/full/1635238/rick-santorum.png?w=63&h=63&f=07493b423202f003116e85640dfacfad" alt=""></div>
+         <div  class=" pl-2">
+          <div class="align-items-center pr-1"><a href="#" class="font-weight-bold text-dark  text-decoration-none">The West Is Burning. Trump Couldn't Care Less</a></div>
+          <div class="pt-1"><span class="dif">BY</span> BY ROBERT REICH</div>
+        </div>
+        </div>
+        <div class="d-flex pl-4 pb-3 pt-2 border-bottom">
+          <div class="pl-1"><img src="https://d.newsweek.com/en/full/1635756/avi-mayer.png?w=63&h=63&f=0b0b559c02512ebfbb0af2e1c5f75b26" alt=""></div>
+         <div  class=" pl-2">
+          <div class="align-items-center pr-1"><a href="#" class="text-dark font-weight-bold text-decoration-none">The West Is Burning. Trump Couldn't Care Less</a></div>
+          <div class="pt-1 font-weight-bold"><span class="dif">BY</span> BY ROBERT REICH</div>
+        </div>
+        </div>
+        <div class="d-flex pl-4 pb-3 pt-2 border-bottom">
+          <div class="pl-1"><img src="https://d.newsweek.com/en/full/1636122/barbara-lee.png?w=63&h=63&f=fd7a9668f7ba14831e2671f4ac38855e" alt=""></div>
+         <div  class=" pl-2">
+          <div class="align-items-center pr-1"><a href="#" class=" text-dark font-weight-bold text-decoration-none">The West Is Burning. Trump Couldn't Care Less</a></div>
+          <div class="pt-1 font-weight-bold"><span class="dif">BY</span> BY ROBERT REICH</div>
+        </div>
+        </div>
+        <div class="d-flex pl-4 pb-3 pt-2 border-bottom">
+          <div class="pl-1"><img src="https://d.newsweek.com/en/full/110048/michael-e-mann.png?w=63&h=63&f=493dae232c1e338506a129ac70ec49d9" alt=""></div>
+         <div  class=" pl-2">
+          <div class="align-items-center pr-1"><a href="#" class="text-dark font-weight-bold text-decoration-none">The West Is Burning. Trump Couldn't Care Less</a></div>
+          <div class="pt-1 font-weight-bold"><span class="dif">BY</span> BY ROBERT REICH</div>
+        </div>
+        </div>
+        <div class="d-flex pl-4 pb-3 pt-2 border-bottom">
+          <div class="pl-1"><img src="https://d.newsweek.com/en/full/110048/michael-e-mann.png?w=63&h=63&f=493dae232c1e338506a129ac70ec49d9" alt=""></div>
+         <div  class=" pl-2">
+          <div class="align-items-center pr-1"><a href="#" class="text-dark font-weight-bold text-decoration-none">The West Is Burning. Trump Couldn't Care Less</a></div>
+          <div class="pt-1 font-weight-bold"><span class="dif">BY</span> BY ROBERT REICH</div>
+        </div>
+        </div>
+        <div class="d-flex pl-4 pb-3 pt-2">
+          <div class="pl-1"><img src="https://d.newsweek.com/en/full/110048/michael-e-mann.png?w=63&h=63&f=493dae232c1e338506a129ac70ec49d9" alt=""></div>
+         <div  class=" pl-2">
+          <div class="align-items-center pr-1"><a href="#" class="text-dark font-weight-bold text-decoration-none">The West Is Burning. Trump Couldn't Care Less</a></div>
+          <div class="pt-1 font-weight-bold"><span class="dif">BY</span> BY ROBERT REICH</div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container d-md-none pt-3">
+      <div class="row position-relative pt-3">
+        <div class="col-sm-12 border-bottom">
+           <div class="top_img position-relative">
+             <div class="position-absolute pos pos1 pl-3"><h5 class="col-blue font-weight-bold">RANKING</h5></div>
+            <img src="https://d.newsweek.com/en/full/1630878/best-online-shops-2021.png?w=500&h=333&f=46c7b25c74ea86488ef5b9c837c4f393" alt="Top Image">
+            </div>
+          <div  class="pl-3 pr-3 pt-1"><a class="color text-decoration-none font-weight-bold" href="#">Best Online Shops 2021
+          </a></div>
+          <p class="pl-3 pr-3 dif2">Newsweek and Statista are recognizing 1,000 shops across 39 categories in eight groups..</p>
+        </div>
+      </div>
+       <div class="row position-relative pt-3">
+        <div class="col-sm-12 border-bottom">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pos1 pl-3"><h5 class="col-blue font-weight-bold">RANKING</h5></div>
+            <img src="https://d.newsweek.com/en/full/1627222/americas-best-physical-rehabilitation-centers-2020.png?w=500&h=333&f=77ba5dea483fdf8b3cd3a4329fb0b853" alt="Top Image">
+            </div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">Best Online Shops 2021
+          </a></p>
+          <p class="pl-3 pr-3">Newsweek and Statista are recognizing 1,000 shops across 39 categories in eight groups..</p>
+        </div>
+      </div>
+       <div class="row position-relative border-top pt-3">
+        <div class="col-sm-12">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pos1 pl-3"><h5 class="col-blue font-weight-bold">RANKING</h5></div>
+            <img src="https://d.newsweek.com/en/full/1630878/best-online-shops-2021.png?w=500&h=333&f=46c7b25c74ea86488ef5b9c837c4f393" alt="Top Image">
+            </div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">Best Online Shops 2021
+          </a></p>
+          <p class="pl-3 pr-3">Newsweek and Statista are recognizing 1,000 shops across 39 categories in eight groups..</p>
+        </div>
+      </div>
+       <div class="row position-relative border-top pt-3">
+        <div class="col-sm-12">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pos1 pl-3"><h5 class="col-blue font-weight-bold">RANKING</h5></div>
+            <img src="https://d.newsweek.com/en/full/1630878/best-online-shops-2021.png?w=500&h=333&f=46c7b25c74ea86488ef5b9c837c4f393" alt="Top Image">
+            </div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">Best Online Shops 2021
+          </a></p>
+          <p class="pl-3 pr-3">Newsweek and Statista are recognizing 1,000 shops across 39 categories in eight groups..</p>
+        </div>
+      </div>
+       <div class="row position-relative border-top pt-3">
+        <div class="col-sm-12">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pos1 pl-3"><h5 class="col-blue font-weight-bold">RANKINGs</h5></div>
+            <img src="https://d.newsweek.com/en/full/1630878/best-online-shops-2021.png?w=500&h=333&f=46c7b25c74ea86488ef5b9c837c4f393" alt="Top Image">
+            </div>
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">Best Online Shops 2021
+          </a></p>
+          <p class="pl-3 pr-3">Newsweek and Statista are recognizing 1,000 shops across 39 categories in eight groups..</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="container d-md-none">
+       <div class="title border-top border-bottom"><h4 class="p-3 text-gray font">MORE STORIES</h4></div>
+       <div class="row">
+         <div class="col-12">
+           <div class="float-left p-3 pb-0"><img src="https://d.newsweek.com/en/full/1636261/facebook-ceo-mark-zuckerberg.jpg?w=95&h=95&f=89d84004bf7bf177238ad44ce9dff2e6" alt=""></div>
+           <div class="pt-3"><a class="text-decoration-none text-dark font-weight-bold" href="#">U.S. Response to Coronavirus Pandemic Rates Poorly <p>in International Poll</p></a></div>
+           <div class="pl-3 border-bottom pb-2 dif2"><span>Respondents in South Korea and Denmark were particularly harsh, with 93 percent and 92 percent, respectively, saying the U.S. has done a bad job at handling the pandemic.</span></div>
+         </div>
+       </div>
+        <div class="row">
+         <div class="col-12">
+           <div class="float-left p-3"><img src="https://d.newsweek.com/en/full/1636261/facebook-ceo-mark-zuckerberg.jpg?w=95&h=95&f=89d84004bf7bf177238ad44ce9dff2e6" alt=""></div>
+           <div class="pt-3"><a class="text-decoration-none text-dark font-weight-bold" href="#">U.S. Response to Coronavirus Pandemic Rates Poorly in International Poll</a></div>
+           <div class="pl-3 border-bottom pb-2 dif2"><span>Respondents in South Korea and Denmark were particularly harsh, with 93 percent and 92 percent, respectively, saying the U.S. has done a bad job at handling the pandemic.</span></div>
+         </div>
+       </div>
+        <div class="row">
+         <div class="col-12">
+           <div class="float-left p-3"><img src="https://d.newsweek.com/en/full/1636261/facebook-ceo-mark-zuckerberg.jpg?w=95&h=95&f=89d84004bf7bf177238ad44ce9dff2e6" alt=""></div>
+           <div class="pt-3"><a class="text-decoration-none text-dark font-weight-bold" href="#">U.S. Response to Coronavirus Pandemic Rates Poorly in International Poll</a></div>
+           <div class="pl-3 border-bottom pb-2 dif2"><span>Respondents in South Korea and Denmark were particularly harsh, with 93 percent and 92 percent, respectively, saying the U.S. has done a bad job at handling the pandemic.</span></div>
+         </div>
+       </div>
+        <div class="row">
+         <div class="col-12">
+           <div class="float-left p-3"><img src="https://d.newsweek.com/en/full/1636261/facebook-ceo-mark-zuckerberg.jpg?w=95&h=95&f=89d84004bf7bf177238ad44ce9dff2e6" alt=""></div>
+           <div class="pt-3"><a class="text-decoration-none text-dark font-weight-bold" href="#">U.S. Response to Coronavirus Pandemic Rates Poorly in International Poll</a></div>
+            <div class="pl-3 border-bottom pb-2 dif2"><span>Respondents in South Korea and Denmark were particularly harsh, with 93 percent and 92 percent, respectively, saying the U.S. has done a bad job at handling the pandemic.</span></div>
+         </div>
+       </div>
+        <div class="row">
+         <div class="col-12">
+           <div class="float-left p-3"><img src="https://d.newsweek.com/en/full/1636261/facebook-ceo-mark-zuckerberg.jpg?w=95&h=95&f=89d84004bf7bf177238ad44ce9dff2e6" alt=""></div>
+           <div class="pt-3"><a class="text-decoration-none text-dark font-weight-bold" href="#">U.S. Response to Coronavirus Pandemic Rates Poorly in International Poll</a></div>
+            <div class="pl-3 border-bottom pb-2 dif2"><span>Respondents in South Korea and Denmark were particularly harsh, with 93 percent and 92 percent, respectively, saying the U.S. has done a bad job at handling the pandemic.</span></div>
+         </div>
+       </div>
+        <div class="row">
+         <div class="col-12">
+           <div class="float-left p-3"><img src="https://d.newsweek.com/en/full/1636261/facebook-ceo-mark-zuckerberg.jpg?w=95&h=95&f=89d84004bf7bf177238ad44ce9dff2e6" alt=""></div>
+           <div class="pt-3"><a class="text-decoration-none text-dark font-weight-bold" href="#">U.S. Response to Coronavirus Pandemic Rates Poorly in International Poll</a></div>
+            <div class="pl-3 border-bottom pb-2 dif2"><span>Respondents in South Korea and Denmark were particularly harsh, with 93 percent and 92 percent, respectively, saying the U.S. has done a bad job at handling the pandemic.</span></div>
+         </div>
+       </div>
+        <div class="row">
+         <div class="col-12">
+           <div class="float-left p-3"><img src="https://d.newsweek.com/en/full/1636261/facebook-ceo-mark-zuckerberg.jpg?w=95&h=95&f=89d84004bf7bf177238ad44ce9dff2e6" alt=""></div>
+           <div class="pt-3"><a class="text-decoration-none text-dark font-weight-bold" href="#">U.S. Response to Coronavirus Pandemic Rates Poorly in International Poll</a></div>
+            <div class="pl-3 border-bottom pb-2 dif2"><span>Respondents in South Korea and Denmark were particularly harsh, with 93 percent and 92 percent, respectively, saying the U.S. has done a bad job at handling the pandemic.</span></div>
+         </div>
+       </div>
+        <div class="row">
+         <div class="col-12">
+           <div class="float-left p-3"><img src="https://d.newsweek.com/en/full/1636261/facebook-ceo-mark-zuckerberg.jpg?w=95&h=95&f=89d84004bf7bf177238ad44ce9dff2e6" alt=""></div>
+           <div class="pt-3"><a class="text-decoration-none text-dark font-weight-bold" href="#">U.S. Response to Coronavirus Pandemic Rates Poorly in International Poll</a></div>
+           <div class="pl-3 border-bottom pb-2 dif2"><span>Respondents in South Korea and Denmark were particularly harsh, with 93 percent and 92 percent, respectively, saying the U.S. has done a bad job at handling the pandemic.</span></div>
+         </div>
+       </div>
+        <div class="row">
+         <div class="col-12">
+           <div class="float-left p-3"><img src="https://d.newsweek.com/en/full/1636261/facebook-ceo-mark-zuckerberg.jpg?w=95&h=95&f=89d84004bf7bf177238ad44ce9dff2e6" alt=""></div>
+           <div class="pt-3"><a class="text-decoration-none text-dark font-weight-bold" href="#">U.S. Response to Coronavirus Pandemic Rates Poorly in International Poll</a></div>
+           <div class="pl-3 border-bottom pb-2 dif2"><span>Respondents in South Korea and Denmark were particularly harsh, with 93 percent and 92 percent, respectively, saying the U.S. has done a bad job at handling the pandemic.</span></div>         </div>
+       </div>
+        <div class="row">
+         <div class="col-12">
+           <div class="float-left p-3"><img src="https://d.newsweek.com/en/full/1636261/facebook-ceo-mark-zuckerberg.jpg?w=95&h=95&f=89d84004bf7bf177238ad44ce9dff2e6" alt=""></div>
+           <div class="pt-3"><a class="text-decoration-none text-dark font-weight-bold" href="#">U.S. Response to Coronavirus Pandemic Rates Poorly in International Poll</a></div>
+           <div class="pl-3 border-bottom pb-2 dif2"><span>Respondents in South Korea and Denmark were particularly harsh, with 93 percent and 92 percent, respectively, saying the U.S. has done a bad job at handling the pandemic.</span></div>         </div>
+       </div>
+        <div class="row">
+         <div class="col-12">
+           <div class="float-left p-3"><img src="https://d.newsweek.com/en/full/1636261/facebook-ceo-mark-zuckerberg.jpg?w=95&h=95&f=89d84004bf7bf177238ad44ce9dff2e6" alt=""></div>
+           <div class="pt-3 "><a class="text-decoration-none text-dark font-weight-bold mr-3" href="#">U.S. Response to Coronavirus Pandemic Rates Poorly in International Poll</a></div>
+           <div class="pl-3 border-bottom pb-2 dif2"><span>Respondents in South Korea and Denmark were particularly harsh, with 93 percent and 92 percent, respectively, saying the U.S. has done a bad job at handling the pandemic.</span></div>
+         </div>
+       </div>
+    </section>
+
+    <section class="container">
+                <div class="title"><h4 class="pt-3 pl-3 text-gray font">MY TURN</h4></div>
+      <div class="row">
+        <div class="col-sm-12">
+
+          <div class="pl-3 pr-2 top_img"><img class="pl-0" src="https://d.newsweek.com/en/full/1637610/sapiosexuality-relationships-dating.jpg?w=397&h=397&f=a7ea46aff9ee03225f6f068558042209" alt=""></div>
+          <div><a href="#" class="text-decoration-none font-weight-bold dif pl-3">"This Is What It's Like to Be Sapiosexual"</a></div>
+        </div>
+        <div class="col-sm-12 pt-3">
+          <div class="pl-3 pr-2 top_img"><img class="pl-0" src="https://d.newsweek.com/en/full/1635772/marriage-divorce-relationships-therapy.jpg?w=397&h=397&f=5555a2d37a9f1d1749ddbaa29e2bee8d" alt=""></div>
+          <div class="pt-3"><a href="#" class="text-decoration-none font-weight-bold dif pl-3 pt-3">"This Is What It's Like to Be Sapiosexual"</a></div>
+        </div>
+        <div class="col-sm-12 pt-3">
+          <div class="pl-3 pr-2 top_img"><img class="pl-0" src="https://d.newsweek.com/en/full/1635953/covid-19-coronavirus-vaccine-doctor-trials.jpg?w=397&h=397&f=fbfae1b3743093ddcbe1cbfaba754dfa" alt=""></div>
+          <div class="pt-3"><a href="#" class="text-decoration-none font-weight-bold dif pl-3">"This Is What It's Like to Be Sapiosexual"</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+         <div class="title border-top"><h4 class="p-3 font-weight-bold dif">CULTURE & TRAVEL</h4></div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="dif font-weight-small">TRAVEL</h5></div>
+            <img src="https://d.newsweek.com/en/full/1635019/san-marino.webp?w=397&h=397&f=abca48a2f88128451a6b8ca8682b20ef" alt="Top Image">
+            </div>
+          <p  class="pl-3 pr-3 pt-3"><a class="text-decoration-none font-weight-bold dif" href="#">The Countries With the Least Amount of Travel Buzz, According to Google
+          </a></p>
+        </div>
+         <div class="col-sm-12">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="dif font-weight-small">INDIA</h5></div>
+            <img src="https://d.newsweek.com/en/full/1635091/roshni-misbah-4.webp?w=397&h=397&f=9bebf36aa1f1b932999d85ad56f68a4c" alt="Top Image">
+            </div>
+          <p  class="pl-3 pr-3 pt-3"><a class="text-decoration-none font-weight-bold dif" href="#">Delhi's 'Hijabi Biker' Breaks India's Stereotypes Riding 'Ninja' Motorbike
+          </a></p>
+        </div>
+         <div class="col-sm-12">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="dif font-weight-small">MUSEUMS</h5></div>
+            <img src="https://d.newsweek.com/en/full/1629519/met.webp?w=397&h=397&f=4264938aed771554d52d21b49e161b24" alt="Top Image">
+            </div>
+          <p  class="pl-3 pr-3 pt-3"><a class="text-decoration-none dif font-weight-bold" href="#">Planning a Trip to One of NYC's Recently Opened Museums? What to Know
+          </a></p>
+        </div>
+          <div class="col-sm-12">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="col-blue font-weight-bold">SPONSORED INSIGHT</h5></div>
+            <img src="https://d.newsweek.com/en/full/1636229/image-2-startup-making-long.jpg?w=500&h=333&f=08b21b5cb21ce41c2c6a6acd2142d8ab" alt="Top Image">
+            </div>
+            <div class="border">
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">This Startup Is Making Long Distance Real Estate Investing Possible for Millennials
+          </a></p>
+          <p class="pl-3 pr-3 font-weight-small">75% of Roofstock users are first-time real estate investors, and more than half are under 35.</p>
+        </div>
+        </div>
+        <!-- form -->
+        <div class="col-sm-12">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="col-blue font-weight-bold">SPONSORED INSIGHT</h5></div>
+            <img src="https://d.newsweek.com/en/full/1619925/kings-college-london.png?w=500&h=333&f=f044e7f18eb4ed04ceee9ca54f81497d" alt="Top Image">
+            </div>
+            <div class="border">
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">What Could a Career in Engineering or Computer Science Do For You?
+          </a></p>
+          <p class="pl-3 pr-3 font-weight-small">Could this be the perfect time for you to pursue a career in engineering or computer science? Find out how to get started.</p>
+        </div>
+        </div>
+        <div class="col-sm-12 pt-3">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="col-blue font-weight-bold">SPONSORED INSIGHT</h5></div>
+            <img src="https://d.newsweek.com/en/full/1612630/sweet-james-accident-attorneys-v2.jpg?w=500&h=333&f=d94084e291f4feedb7149197ba2be99e" alt="Top Image">
+            </div>
+            <div class="border">
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">What Makes the Best Lawyers Stand Out?
+          </a></p>
+          <p class="pl-3 pr-3 font-weight-small">The unthinkable has happened and you need a good lawyer to turn to, how do you chose?</p>
+        </div>
+        </div>
+        <div class="col-sm-12 pt-3">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="col-blue font-weight-bold">RANKINGS</h5></div>
+            <img src="https://d.newsweek.com/en/full/1621635/americas-best-addiction-treatment-centers-2020.png?w=500&h=333&f=882d6618257cbde5fd5acc54362e6fe9" alt="Top Image">
+            </div>
+            <div class="border">
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">America's Best Addiction Treatment Centers 2020
+          </a></p>
+          <p class="pl-3 pr-3 font-weight-small">Newsweek partnered with global market research firm Statista Inc. to rank the best U.S. treatment facilities that focus on addiction.</p>
+        </div>
+        </div>
+        <div class="col-sm-12 pt-3">
+          <div class="top_img position-relative">
+             <div class="position-absolute pos pl-3"><h5 class="col-blue font-weight-bold">SPONSORED INSIGHT</h5></div>
+            <img src="https://d.newsweek.com/en/full/1587568/infection-prevention-products-banner.jpg?w=500&h=333&f=c96d696a017681c45d2f464a2ae0e23d" alt="Top Image">
+            </div>
+            <div class="border">
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">Best Infection Prevention Products
+          </a></p>
+          <p class="pl-3 pr-3 font-weight-small">During the coronavirus outbreak, health care is more important than ever. In Newsweek's first Best Health Care series, we highlight the best infection prevention products.</p>
+        </div>
+        </div>
+        <div class="col-sm-12 pt-3">
+          <div class="top_img position-relative">
+            <img src="https://d.newsweek.com/en/full/1606968/best-nursing-homes-2020.png?w=500&h=333&f=c4c9af7aa9b2229347ab028f6dbddafa" alt="Top Image">
+            </div>
+            <div class="border">
+          <p  class="pl-3 pr-3 pt-3"><a class="color text-decoration-none font-weight-bold" href="#">Best Nursing Homes 2021
+          </a></p>
+          <p class="pl-3 pr-3 font-weight-small">Newsweek is partnering with the respected global data research firm Statista Inc. to establish a ranking of Best Nursing Homes 2021. If you work in this field, please participate in our survey.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+     <section class="sports category row border-bottom ">
     <div class="row">
       <div class="col-sm-12 col-12">
         <h3>Sports</h3>
@@ -263,6 +540,15 @@
           <a href="#" class="text-decoration-none text-dark">
             <h5>How to Watch, Live Stream the U.S. Open This Week</h5>
           </a>
+           <!-- <div class="debate_head"></div> -->
+      </div>
+    </section>
+
+    <!-- Newsletter-->
+    <section class="news-letter d-md-none">
+        <h3>NEWSLETTER</h3>
+        <div class="banner ">
+
         </div>
         <div class="card col-sm-12">
           <a href="#">

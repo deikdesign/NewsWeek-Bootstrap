@@ -5,6 +5,7 @@ body {
 .f-nowrap {
   flex-wrap: nowrap !important
 }
+
 .ds-flex {
   display: flex !important;
 }
@@ -26,6 +27,13 @@ body {
 .color {
   color: black !important;
   font-weight: 500;
+}
+
+
+.font {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
 }
 
 .sml {
@@ -98,19 +106,18 @@ height: 7rem;
 
 .pos {
   background-color: white;
-  height: 3rem;
+  /* height: 2rem; */
   width: auto;
-  top: 46%;
-  left: 30px;
+  bottom: 0;
+  left: 0;
 }
 
-.top_img img {
-  width: 23rem;
+.top_img {
   padding-left: 1rem;
 }
 
-.debate  img{
-  height: 7rem;
+.debate img{
+  height: 4rem;
 }
 
 .debate_head {
@@ -120,7 +127,7 @@ height: 7rem;
 .vs {
   width: 50px;
   height: 50px;
-  top: 50.5%;
+  top: 45.5%;
   left: 45%;
 }
 /**Sports**/
@@ -130,6 +137,23 @@ height: 7rem;
   width: 100px !important;
   float: left;
   margin:10px;
+}
+
+.dif {
+  color: gray;
+}
+
+.dif span {
+  font-size: x-small;
+}
+
+.col-blue {
+  color: blue;
+}
+
+.dif2 span {
+  color: black;
+  font-size: small;
 }
 
 
@@ -219,4 +243,17 @@ height: 7rem;
 
 .mr-5px {
     margin-right: 5px;
+}
+
+
+@media only screen and (max-width: 767px){
+  .top_img img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .top_img_m img {
+    width: 5rem;
+  }
 }
