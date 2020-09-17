@@ -2,6 +2,10 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.row { 
+  margin: 0; 
+} 
+
 .f-nowrap {
   flex-wrap: nowrap !important
 }
@@ -129,6 +133,15 @@ height: 7rem;
   height: 50px;
   top: 45.5%;
   left: 45%;
+}
+
+.mag img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.mag_hov:hover {
+  background-color: lightgray;
 }
 /**Sports**/
 
@@ -270,7 +283,17 @@ height: 7rem;
   }
 
   .sport_md img {
-    width: 13rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .mag1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .editor img {
+    width: 100%;
     height: auto;
   }
 }
