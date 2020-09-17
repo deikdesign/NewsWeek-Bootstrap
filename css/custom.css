@@ -168,7 +168,9 @@ height: 7rem;
   color: black;
   font-size: small;
 }
-
+.font-p {
+  font-size: 0.8rem;
+}
 
 
 /** Subscribe **/
