@@ -8,19 +8,6 @@ body {
   margin: 0;
 }
 
-.f-nowrap {
-  flex-wrap: nowrap !important;
-}
-
-.ds-flex {
-  display: flex !important;
-}
-
-.mrg-0 {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
 .container {
   padding: 0;
 }
@@ -50,9 +37,10 @@ body {
 .sml {
   height: 4rem;
   background: #f72210;
-  /* position: fixed; */
+  position: sticky;
   z-index: 1;
-  width: 100%;
+  align-self: flex-start;
+  top: 0;
 }
 
 .head_img img {
@@ -75,6 +63,7 @@ body {
 .login {
   color: white;
 }
+
 .bg-warning {
   padding-top: 0.5rem;
   border: none;
@@ -93,12 +82,12 @@ body {
   border-right: 1px solid lightgray;
 }
 
-.last {
+.last,
+.middle input {
   border: none !important;
 }
 
 .middle input {
-  border: none !important;
   text-align: center;
   width: 4rem;
 }
@@ -113,7 +102,6 @@ body {
 
 .pos {
   background-color: white;
-  /* height: 2rem; */
   width: auto;
   bottom: 0;
   left: 0;
@@ -196,15 +184,7 @@ body {
   padding: 10px;
 }
 
-.wrap {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 14px;
-}
-
 .s-images {
-  display: flex;
-  position: relative;
   max-width: 75%;
 }
 
@@ -214,29 +194,27 @@ body {
 }
 
 .img1 {
-  position: absolute;
-  height: auto;
+  left: 30px;
   max-height: 175px;
   width: auto;
 }
 
 .img2 {
-  position: relative;
   max-height: 175px;
   width: auto;
-  left: 80px;
-  top: 10px;
+  left: -50px;
+  bottom: 10px;
 }
 
 /** Newsletter **/
 .news-letter {
-  position: relative;
   padding: 15px;
 }
 
 .news-letter h6 {
   color: rgb(247, 34, 16) !important;
 }
+
 .newsletter {
   padding: 20px;
   border: solid 1px lightgray;
@@ -249,29 +227,11 @@ body {
   display: inline-block;
   box-sizing: border-box;
 }
+
 .submit [type="submit"] {
-  background-color: rgb(
-    247,
-    34,
-    16
-  ) !important;
+  background-color: rgb(247, 34, 16) !important;
   border: none;
   margin-top: 7px;
-}
-
-.letter-img {
-  float: left;
-}
-.text-cont {
-  float: right;
-  float: right;
-  margin-left: 90px;
-  margin-top: 20px;
-}
-
-.text {
-  float: right;
-  margin-left: 90px;
 }
 
 /**Footer**/
@@ -302,28 +262,44 @@ body {
   .sticky {
     position: relative;
   }
+
+  .over_wrap {
+    flex-direction: column;
+  }
+
+  .text1 {
+    position: absolute;
+    bottom: 80px;
+    font-size: 900;
+    padding: 0;
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+  }
+
+  .text2 {
+    padding-top: 1.8rem;
+    padding-left: 0;
+  }
+
+  .letter-img{
+    margin: 0 auto;
+  }
+
+  .icon-wrap {
+    flex-direction: column;
+  }
+
+  .social {
+    justify-content: flex-start;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  .top_img_m img {
-    width: 100%;
-  }
-
-  .sport_img img {
-    width: 100%;
-    height: auto;
-  }
-
-  .sport_md img {
-    width: 100%;
-    height: auto;
-  }
-
-  .mag1 img {
-    width: 100%;
-    height: auto;
-  }
-
+  .top_img_m img,
+  .sport_img img,
+  .sport_md img,
+  .mag1 img,
   .editor img {
     width: 100%;
     height: auto;

@@ -3,7 +3,7 @@
 > # NewsWeek---Bootstrap
 Building a webpage using Bootstrap
 
-![screenshot](./images/newsweek_screenshot.JPG)
+![screenshot](./Images/newsweek_screenshot.JPG)
 
 Building a responsive webpage using Bootstrap.
 
