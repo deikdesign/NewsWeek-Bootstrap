@@ -22,12 +22,6 @@ body {
   font-weight: 500;
 }
 
-.fix {
-  position: sticky;
-  top: 0;
-  align-self: end;
-}
-
 .font {
   font-size: 14px;
   font-weight: 500;
