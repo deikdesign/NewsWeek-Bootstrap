@@ -160,7 +160,8 @@ body {
   background-color: rgb(244, 245, 246);
 }
 
-.input-cont [type=text], [type=submit] {
+.input-cont [type=text], 
+.input-cont [type=submit] {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
