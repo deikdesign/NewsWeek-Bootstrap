@@ -1,6 +1,8 @@
-body {
+html, body {
   font-family: "Roboto Condensed", sans-serif;
   position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .row {
@@ -37,11 +39,13 @@ body {
 
 .head_img img {
   height: 3rem;
+  margin:0;
+  padding: 0;
 }
 
 .btn-sml {
   height: 2rem;
-  width: 6rem;
+  width: 5rem;
   padding-bottom: 2rem;
   border-radius: 40px;
   border: none;
@@ -247,6 +251,14 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+  .btn-sml {
+    height: 2.5rem;
+    width: 5.4rem;
+    padding-bottom: 2rem;
+    border-radius: 40px;
+    border: none;
+  }
+
   .top_img img {
     width: 100%;
   }
