@@ -161,12 +161,12 @@ body {
 }
 
 .input-cont  [type=text],
-[type=submit] {
+.input-cont [type=submit] {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
   border: solid 1px black;
-  box-sizing:border-box;
+  box-sizing: border-box;
   display: inline-block;
 }
 
@@ -176,7 +176,7 @@ body {
 
 /** Subscribe **/
 
-.container {
+.container-sub {
   background-color: rgb(244, 245, 246);
   padding: 10px;
 }
