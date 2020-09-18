@@ -1,7 +1,6 @@
 body {
-  font-family: "Roboto Condensed",
-    sans-serif;
-    position: relative;
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
 }
 
 .row {
@@ -71,7 +70,6 @@ body {
   width: auto;
 }
 
-
 .middle a {
   border-right: 1px solid lightgray;
 }
@@ -128,7 +126,8 @@ body {
 .mag_hov:hover {
   background-color: lightgray;
 }
-/**Sports**/
+
+/** Sports **/
 
 .small-img {
   width: 100px !important;
@@ -152,14 +151,17 @@ body {
   color: black;
   font-size: small;
 }
+
 /* Subscribe 5 */
+
 .article-cont {
   width: 100%;
   padding: 25px;
-  background-color: rgb(244,245,246);
+  background-color: rgb(244, 245, 246);
 }
 
-.input-cont  [type=text],[type=submit] {
+.input-cont  [type=text],
+[type=submit] {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
@@ -169,10 +171,11 @@ body {
 }
 
 .input-cont [type=submit] {
-  background-color:rgb(246,22,2) !important;
+  background-color: rgb(246, 22, 2) !important;
 }
 
 /** Subscribe **/
+
 .container {
   background-color: rgb(244, 245, 246);
   padding: 10px;
@@ -228,7 +231,8 @@ body {
   margin-top: 7px;
 }
 
-/**Footer**/
+/** Footer **/
+
 .f-end {
   align-items: flex-end;
 }
@@ -264,7 +268,7 @@ body {
   .text1 {
     position: absolute;
     bottom: 80px;
-    font-size: 900;
+    font-weight: 900;
     padding: 0;
     background-color: white;
     opacity: 0.6;
@@ -276,7 +280,7 @@ body {
     padding-left: 0;
   }
 
-  .letter-img{
+  .letter-img {
     margin: 0 auto;
   }
 
