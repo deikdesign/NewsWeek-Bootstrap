@@ -267,7 +267,6 @@ body {
 .sticky {
   position: sticky;
   top: 0;
-  left: 0;
   align-self: end;
 }
 
