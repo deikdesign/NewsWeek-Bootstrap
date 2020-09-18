@@ -12,12 +12,12 @@ body {
 }
 
 .image-shrink {
-  width: 100% !important;
-  flex-shrink: 0 !important;
+  width: 100%;
+  flex-shrink: 0;
 }
 
 .color {
-  color: black !important;
+  color: black;
   font-weight: 500;
 }
 
@@ -32,7 +32,6 @@ body {
   background: #f72210;
   position: sticky;
   z-index: 1;
-  align-self: flex-start;
   top: 0;
 }
 
@@ -41,15 +40,15 @@ body {
 }
 
 .btn-sml {
-  height: 2rem !important;
-  width: 6rem !important;
+  height: 2rem;
+  width: 6rem;
   padding-bottom: 2rem;
   border-radius: 40px;
   border: none;
 }
 
 .upper {
-  background: #f72210 !important;
+  background: #f72210;
   height: 7rem;
 }
 
@@ -76,7 +75,7 @@ body {
 
 .last,
 .middle input {
-  border: none !important;
+  border: none;
 }
 
 .middle input {
@@ -89,7 +88,7 @@ body {
 }
 
 .lower a:hover {
-  color: red !important;
+  color: red;
 }
 
 .pos {
@@ -130,7 +129,7 @@ body {
 /** Sports **/
 
 .small-img {
-  width: 100px !important;
+  width: 100px;
   float: left;
   margin: 10px;
 }
@@ -171,7 +170,7 @@ body {
 }
 
 .input-cont [type=submit] {
-  background-color: rgb(246, 22, 2) !important;
+  background-color: rgb(246, 22, 2);
 }
 
 /** Subscribe **/
@@ -209,7 +208,7 @@ body {
 }
 
 .news-letter h6 {
-  color: rgb(247, 34, 16) !important;
+  color: rgb(247, 34, 16);
 }
 
 .newsletter {
@@ -226,7 +225,7 @@ body {
 }
 
 .submit [type="submit"] {
-  background-color: rgb(247, 34, 16) !important;
+  background-color: rgb(247, 34, 16);
   border: none;
   margin-top: 7px;
 }
