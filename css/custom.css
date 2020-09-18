@@ -68,7 +68,7 @@ body {
 }
 
 .upper {
-  background: #f72210;
+  background: #f72210 !important;
   height: 7rem;
 }
 
@@ -169,6 +169,25 @@ body {
 .dif2 span {
   color: black;
   font-size: small;
+}
+/* Subscribe 5 */
+.article-cont {
+  width: 100%;
+  padding: 25px;
+  background-color: rgb(244,245,246);
+}
+
+.input-cont  [type=text],[type=submit] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: solid 1px black;
+  box-sizing:border-box;
+  display: inline-block;
+}
+
+.input-cont [type=submit] {
+  background-color:rgb(246,22,2) !important;
 }
 
 /** Subscribe **/
