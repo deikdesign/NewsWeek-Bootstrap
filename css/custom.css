@@ -277,7 +277,7 @@ body {
   }
 
   .gal {
-   padding-left: 5rem;
+    padding-left: 5rem;
   }
 
   .img2 {
@@ -325,7 +325,6 @@ body {
     left: 15%;
     bottom: 15%;
   }
-
 }
 
 @media only screen and (min-width: 1134px) {
@@ -334,11 +333,11 @@ body {
     height: auto;
   }
 
-   .text-cont {
+  .text-cont {
     padding: 3rem 0 0 0;
   }
 
-   .img2 {
-     bottom: 12%;
+  .img2 {
+    bottom: 12%;
   }
 }
