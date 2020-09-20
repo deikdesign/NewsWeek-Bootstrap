@@ -102,6 +102,16 @@ li {
   left: 0;
 }
 
+.pos h6 {
+  background-color: lightcyan;
+  color: black;
+}
+
+.pos h6,
+.pos h5 {
+  margin: 0;
+}
+
 .top_img {
   padding-left: 1rem;
 }
