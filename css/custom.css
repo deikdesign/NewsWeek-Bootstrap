@@ -338,8 +338,8 @@ li {
     bottom: 15%;
   }
 
-  .news-letter {
-    margin-top: 2rem;
+  .m_bot {
+    margin-bottom: 3rem;
   }
 
   .text-cont {
@@ -359,10 +359,6 @@ li {
 
   .text-cont {
     padding-left: 2rem;
-  }
-
-  .news-letter {
-    margin: 0;
   }
 
   .img2 {
