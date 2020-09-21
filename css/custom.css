@@ -208,7 +208,6 @@ li {
 .newsletter {
   padding: 0;
   border: solid 1px lightgray;
- 
 }
 
 .cont-letter input[type="text"],
@@ -229,7 +228,7 @@ li {
 }
 
 .boxing {
-  background-color: rgb(243,244,245);
+  background-color: rgb(243, 244, 245);
   width: auto;
 }
 
@@ -250,14 +249,14 @@ li {
   align-self: end;
 }
 
-.news_letter  {
+.news_letter {
   height: 300px;
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center no-repeat;
   background-size: cover;
 }
 
 .text-color {
-  background-color: rgb(244,245,246);
+  background-color: rgb(244 ,245 ,246);
 }
 
 .text-box {
