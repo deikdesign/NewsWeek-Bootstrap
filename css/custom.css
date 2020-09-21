@@ -201,19 +201,6 @@ li {
   padding: 10px;
 }
 
-.img1 {
-  left: 50px;
-  top: 12%;
-  max-height: 175px;
-  width: auto;
-}
-
-.img2 {
-  max-height: 175px;
-  width: auto;
-  left: 0;
-}
-
 .news-letter h6 {
   color: rgb(247, 34, 16);
 }
@@ -242,10 +229,8 @@ li {
 }
 
 .boxing {
-  z-index: -1;
   background-color: rgb(243,244,245);
   width: auto;
-  height: 100%;
 }
 
 /** Footer **/
@@ -266,17 +251,18 @@ li {
 }
 
 .news_letter  {
-  height: 250px;
+  height: 300px;
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center no-repeat;
+  background-size: cover;
 }
 
 .text-color {
-  z-index: 1;
   background-color: rgb(244,245,246);
 }
+
 .text-box {
-  height: 250px;
-  width: auto;
+  height: 300px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -303,13 +289,20 @@ li {
     padding-left: 5rem;
   }
 
+  .text-box {
+    margin: 0 auto;
+  }
+
   .img2 {
+    position: absolute;
     top: 30%;
     left: 15%;
   }
 
   .img1 {
+    position: relative;
     top: 40%;
+    left: 20%;
   }
 
   .text1 {
@@ -345,14 +338,16 @@ li {
   }
 
   .img2 {
-    left: 40%;
+    position: absolute;
+    left: 20px;
     width: auto;
-    height: auto;
+    top: 40px;
   }
 
   .img1 {
-    left: 15%;
-    bottom: 15%;
+    position: absolute;
+    left: 70px;
+    top: 50px;
   }
 
   .m_bot {
@@ -360,8 +355,8 @@ li {
   }
 
   .text-cont {
-    padding: 2rem 0 0 0;
-    margin: 0;
+    left: 260px;
+    top: 90px;
   }
 
   .top_img_1 {
@@ -373,13 +368,5 @@ li {
   .sport_md img {
     width: 100%;
     height: auto;
-  }
-
-  .text-cont {
-    padding-left: 0rem;
-  }
-
-  .img2 {
-    bottom: 12%;
   }
 }
